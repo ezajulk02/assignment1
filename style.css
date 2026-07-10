@@ -177,3 +177,33 @@ section{
     color: blue;
     background-color: white;
 }
+
+/* footer  */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0D1B2A;
+    color: white;
+    padding: 30px 50px;
+}
+
+.logo img{
+    padding: 0;
+    margin: 0;
+}
+.logo p{
+    font-weight: 200;
+    font-size: 13px;
+    color:#aea6a6;
+}
+.policy{
+    display: flex;
+    gap: 20px;
+    font-weight: 400;
+    font-size: 13px;
+    color:#aea6a6;
+}
+.fa-linkedin-in, .fa-square-facebook{
+    color: blue;
+}
