@@ -8,9 +8,8 @@
     letter-spacing: 0;
 
 }
-section{
-    padding: 20px 50px;
-}
+
+
 .btn{
     color: white;
     background-color: #2563EB;
@@ -18,14 +17,43 @@ section{
     border-radius: 5px;
     padding: 5px 20px;
 }
+
+/* navigation part */
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 50px;
 }
 .navbar ul{
     display: flex;
     gap: 20px;
     list-style-type: none;
     color: #575757;
+}
+
+/* Banner part */
+.banner{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 01) 0%, rgba(0, 0, 0, 0) 100%),
+    url(./assets/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.banner h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+.banner p{
+    font-weight: 200;
+    margin-top: 6px;
+}
+.banner .btn{
+    padding: 13px 25px;
 }
