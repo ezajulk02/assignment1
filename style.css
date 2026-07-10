@@ -9,7 +9,9 @@
 
 }
 
-
+section{
+    padding: 50px;
+}
 .btn{
     color: white;
     background-color: #2563EB;
@@ -56,4 +58,37 @@
 }
 .banner .btn{
     padding: 13px 25px;
+}
+
+/* speakers  */
+.speakers h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+}
+.speakers_identity{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    margin-top: 20px;
+}
+.speakers_identity .card{
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.251);
+    border-radius: 5px;
+}
+.speakers_identity img{
+    width: 100%;
+    border-radius: 5px;
+}
+.speakers_identity p, h3, span{
+    margin-left: 20px;
+}
+.speakers_identity .designation{
+    color: blue;
+    font-size: 10px;
+}
+.speakers_identity .company{
+    color: rgba(128, 128, 128, 0.822);
+    font-size: 10px;
 }
