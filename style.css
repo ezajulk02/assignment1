@@ -92,3 +92,88 @@ section{
     color: rgba(128, 128, 128, 0.822);
     font-size: 10px;
 }
+
+/* pricing section  */
+.pricing> h2{
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+}
+.pricing> p{
+    text-align: center;
+    color: rgba(128, 128, 128, 0.724);
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.pricing_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pricing_card{
+    border: 1px solid rgba(128, 128, 128, 0.178);
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+.pricing_card> p{
+    font-weight: 400;
+    color: rgba(128, 128, 128, 0.847);
+}
+.pricing_card> h3{
+    font-weight: 800;
+    font-size: 40px;
+    text-align: start;
+    margin: 0;
+}
+.pricing_card> span{
+    margin: 0;
+    font-weight: 200;
+    color: rgba(128, 128, 128, 0.852);
+}
+.border{
+    margin-top: 30px;
+    border: 0.5px solid rgba(128, 128, 128, 0.158);
+}
+.pricing_card ul{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 33px;
+    margin: 10px 0;
+    margin-bottom: 20px;
+}
+.pricing_card li{
+    font-weight: 400;
+}
+.pricing_card ul li::marker{
+    color: blue;
+}
+.pricing_card button{
+    width: 100%;
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+.pricing_card button:hover{
+    background-color: rgba(0, 0, 255, 0.685) ;
+    color: white;
+    transition: 0.5s;
+}
+.card2{
+    background-color: #0D1B2A;
+    color: white;
+}
+.card2> p{
+    color: #2564ebca;
+}
+.card2 button{
+    color: white;
+    background-color: blue;
+}
+.card2 button:hover{
+    color: blue;
+    background-color: white;
+}
