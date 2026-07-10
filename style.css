@@ -18,6 +18,13 @@ section{
     border: none;
     border-radius: 5px;
     padding: 5px 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    border: 1px solid blue;
+    color: blue;
+    transition: 0.7s;
 }
 
 /* navigation part */
@@ -176,6 +183,58 @@ section{
 .card2 button:hover{
     color: blue;
     background-color: white;
+}
+
+/* faq section  */
+.faq_section{
+    text-align: center;
+}
+.faq_section h2{
+    font-size: 2.5rem;
+    margin-bottom: 10pox;
+    color: #1a1a1a;
+}
+.faq_subtitle{
+    color: #666;
+    margin-bottom: 40px;
+    font-size: 13px;
+}
+.faq_container{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+details{
+    color: gray;
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    transition: all 0.3s ease;
+}
+details[open]{
+    background-color: white;
+    border-color: #007bff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+summary{
+    font-weight: 800;
+    font-size: 1.1rem;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #212529;
+}
+summary::after{
+    content: "+";
+    font-weight: bold;
+    color: #007bff;
+}
+details[open] summary::after{
+    content: "-";
 }
 
 /* footer  */
